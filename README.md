@@ -1,16 +1,23 @@
-# React + Vite
+# Whistle Website — Frontend Assessment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based frontend built for the Unbundl Frontend Developer Assessment.
+Recreates key sections of the Whistle (dental aligners) website from Figma.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React + Vite
+- Plain CSS
+- DummyJSON API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Setup Instructions
 
-## React Compiler
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## APIs Used
+- `https://dummyjson.com/products?limit=4` — WhyWhistle section cards
+- `https://jsonplaceholder.typicode.com/posts?_limit=5` — FAQ section
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Approach
+I broke the Figma design into 4 independent components — HeroSection, WhyWhistle, HappySmilers, and Footer. I used DummyJSON and JSONPlaceholder APIs to populate dynamic data with proper loading and error states. Each component has its own CSS file for clean separation of styles.
