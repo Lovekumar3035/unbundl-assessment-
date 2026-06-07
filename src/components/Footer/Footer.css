@@ -61,3 +61,11 @@
         padding: 40px 20px;
     }
 }
+.link_list li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.link_list li:hover {
+  color: #7c3aed;
+}
