@@ -1,0 +1,80 @@
+.happy_section {
+    padding: 80px 40px;
+    background-color: #fff;
+}
+
+.happy_section h2 {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 50px;
+}
+
+.cards_box {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.cards {
+    width: 180px;
+    height: 320px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(
+        180deg,
+        #b75cff 0%,
+        #d89eff 100%
+    );
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: 0.3s;
+}
+
+.cards:hover {
+    transform: translateY(-5px);
+}
+
+.logo_text {
+    text-align: right;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.cards img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.cards h3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.cards p {
+    color: #f4f4f4;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 768px) {
+    .happy_section {
+        padding: 50px 20px;
+    }
+
+    .happy_section h2 {
+        font-size: 32px;
+    }
+
+    .cards {
+        width: 220px;
+    }
+}
