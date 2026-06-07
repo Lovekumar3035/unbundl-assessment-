@@ -1,0 +1,63 @@
+.main_div {
+    background-color: #0d1214;
+    padding: 60px;
+}
+
+.footer_main {
+    width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 h2,
+.box2 h2,
+.box3 h2 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.link_list {
+    list-style: none;
+}
+
+.link_list li {
+    color: white;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.box2 p,
+.box4 p {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.icon_box {
+    display: flex;
+    gap: 20px;
+}
+
+.icon_box span {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.box4 {
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    .footer_main {
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .main_div {
+        padding: 40px 20px;
+    }
+}
