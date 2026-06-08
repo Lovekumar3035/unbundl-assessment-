@@ -31,7 +31,7 @@ const HeroSection = () => {
 
                 <div className="hero-image">
                     <img
-                        src="/src/assets/girl_image.webp"
+                        src="https://static.vecteezy.com/system/resources/thumbnails/050/817/792/small_2x/happy-smiling-business-woman-in-suit-with-hand-pointing-at-empty-space-standing-isolate-on-transparent-background-png.png"
                         alt="Smile"
                     />
                 </div>
